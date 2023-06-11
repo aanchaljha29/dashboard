@@ -1,0 +1,96 @@
+.header-snowflake,
+.header-feed-file {
+  padding: 0 0 25px;
+  font-size: 35px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-shadow: 2px 3px rgba(0, 0, 0, 0.42);
+  letter-spacing: 5px;
+}
+
+.snowflake-form-div,
+.feed-form-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.form-mid {
+  flex-basis: 31.4%;
+  -webkit-flex-basis: 31.4%;
+}
+
+.form-mid input[type="email"],
+.form-mid input[type="text"] {
+  outline: none;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  padding: 0.7em 1em 0.8em 0em;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 0px 0px 16px;
+  display: inline-block;
+  background: none;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+  .form-mid input[type="email"],
+  .form-mid input[type="text"] {
+    margin: 0px 0px 13px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .form-mid input[type="email"],
+  .form-mid input[type="text"] {
+    padding: 0.7em 0.8em 0.7em 0em;
+  }
+}
+
+@media (max-width: 991px) {
+  .form-mid input[type="email"],
+  .form-mid input[type="text"] {
+    margin: 0px 0px 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  button[type="submit"] {
+    margin-top: 0.8em;
+  }
+}
+
+@media (max-width: 375px) {
+  .form-mid input[type="email"],
+  .form-mid input[type="text"] {
+    margin: 0px 0px 8px;
+  }
+}
+
+.form-dropdown {
+  color: #fff;
+  font-size: 15px;
+  padding: 0.7em 1em 0.8em 0em;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin: 0px 0px 16px;
+  display: inline-block;
+  background: none;
+  letter-spacing: 2px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+  width: 100%;
+}
+
